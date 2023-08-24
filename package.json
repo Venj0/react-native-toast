@@ -1,30 +1,15 @@
 {
-  "name": "@venj0/react-native-toast",
-  "version": "1.0.0",
+  "name": "@venjo/react-native-notify",
+  "version": "1.0.7",
   "description": "toast for react app",
   "main": "lib/commonjs/index",
   "module": "lib/module/index",
   "types": "lib/typescript/index.d.ts",
   "react-native": "src/index",
   "source": "src/index",
+  "private": false,
   "files": [
-    "src",
-    "lib",
-    "android",
-    "ios",
-    "cpp",
-    "*.podspec",
-    "!lib/typescript/example",
-    "!ios/build",
-    "!android/build",
-    "!android/gradle",
-    "!android/gradlew",
-    "!android/gradlew.bat",
-    "!android/local.properties",
-    "!**/__tests__",
-    "!**/__fixtures__",
-    "!**/__mocks__",
-    "!**/.*"
+    "lib"
   ],
   "scripts": {
     "test": "jest",
@@ -37,8 +22,9 @@
   },
   "keywords": [
     "react-native",
-    "ios",
-    "android"
+    "notifications",
+    "toast",
+    "react-native-toast"
   ],
   "repository": "https://github.com/venj0s/react-native-toast",
   "author": "venj0s <vens.projects@gmail.com> (https://github.com/venj0s)",
@@ -51,8 +37,6 @@
     "registry": "https://registry.npmjs.org/"
   },
   "devDependencies": {
-    "@commitlint/config-conventional": "^17.0.2",
-    "@evilmartians/lefthook": "^1.2.2",
     "@react-native-community/eslint-config": "^3.0.2",
     "@release-it/conventional-changelog": "^5.0.0",
     "@types/jest": "^28.1.2",
@@ -157,6 +141,7 @@
     ]
   },
   "dependencies": {
+    "@venjo/react-native-notify": "^1.0.6",
     "react-native-svg": "^13.11.0",
     "react-native-toast": "^1.0.1"
   }
