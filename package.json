@@ -26,13 +26,13 @@
     "toast",
     "react-native-toast"
   ],
-  "repository": "https://github.com/venj0s/react-native-toast",
-  "author": "venj0s <vens.projects@gmail.com> (https://github.com/venj0s)",
+  "repository": "https://github.com/venj0/react-native-toast",
+  "author": "venj0 <siradeghyansmbat@gmail.com> (https://github.com/venj0)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/venj0s/react-native-toast/issues"
+    "url": "https://github.com/venj0/react-native-toast/issues"
   },
-  "homepage": "https://github.com/venj0s/react-native-toast#readme",
+  "homepage": "https://github.com/venj0/react-native-toast#readme",
   "publishConfig": {
     "registry": "https://registry.npmjs.org/"
   },
